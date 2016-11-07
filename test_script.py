@@ -6,5 +6,5 @@ import telescope.enc
 
 test.travis_test()
 test2.p_time()
-enc.get_azel()
+telescope.enc.get_azel()
 
