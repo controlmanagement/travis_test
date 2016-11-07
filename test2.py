@@ -1,5 +1,7 @@
 import time
 
 
-tv = time.time()
-print(tv)
+def p_time():
+  tv = time.time()
+  print(tv)
+  return
