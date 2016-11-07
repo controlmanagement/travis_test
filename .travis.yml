@@ -3,9 +3,9 @@ python:
     - "2.7"
     - "3.2"
 install:
-    - pip install matplotlib
-    - pip install pandas
-    - pip install astropy
+#    - pip install matplotlib
+#    - pip install pandas
+#    - pip install astropy
 script: python test_script.py
 notifications:
     email:
