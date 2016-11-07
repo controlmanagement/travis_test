@@ -1,3 +1,7 @@
-import test_travis
+import test
+
+
+
+test.travis_test()
 
 
