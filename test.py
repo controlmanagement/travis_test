@@ -1,9 +1,9 @@
 
 
-def print():
+def travis_test():
     print("abc")
     return True
 
 
-print()
+travis_test()
 
