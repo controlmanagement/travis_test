@@ -10,7 +10,7 @@ import astropy.units
 import astropy.coordinates
 
 # 時刻
-today = pandas.to_date('today')
+today = pandas.to_datetime('today')
 tomorrow = today + pandas.tseries.offsets.Day()
 date1 = pandas.date_range(today, tomorrow, freq='10min')
 date2 = astropy.time.Time(date1.to_datetime().tolist(), format='datetime')
