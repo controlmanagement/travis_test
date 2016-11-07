@@ -5,5 +5,6 @@ def travis_test():
     return True
 
 
-travis_test()
+if name == "__main__":
+    travis_test()
 
