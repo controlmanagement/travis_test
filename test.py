@@ -5,6 +5,6 @@ def travis_test():
     return True
 
 
-if name == "__main__":
+if __name__ == "__main__":
     travis_test()
 
