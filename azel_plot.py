@@ -2,6 +2,7 @@
 
 
 import pylab
+import matplotlib
 import matplotlib.ticker
 import matplotlib.dates
 import pandas
@@ -9,6 +10,10 @@ import astropy.time
 import astropy.units
 import astropy.coordinates
 
+
+
+
+matplotlib.use('Agg')
 # 時刻
 today = pandas.to_datetime('today')
 tomorrow = today + pandas.tseries.offsets.Day()
